@@ -14,7 +14,7 @@ namespace ConsoleUI
 
             foreach (var product in productManager.GetAll())
             {
-                Console.WriteLine(productManager.ProductName);
+                Console.WriteLine(product.ProductName);
             }
 
 

@@ -17,7 +17,7 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
-        public bool ProductName { get; set; }
+        
 
         public List<Product> GetAll()
         {
